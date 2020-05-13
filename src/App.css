@@ -1,0 +1,90 @@
+.calc-comp {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-display {
+    width: 300px;
+    height: 75px;
+    background-color: #d1d1d1;
+    border: 1px solid #505050;
+    box-sizing: border-box;
+}
+
+.calc-display-result {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0 15px 1px 15px;
+
+    /* font-size: 30px;
+    line-height: 70px; */
+}
+
+.calc-keypad {
+    width: 300px;
+    height: 375px;
+    display: flex;
+    flex-direction: column
+}
+
+.calc-keypad-row-1 {
+    display: flex;
+}
+
+.calc-keypad-row-2 {
+    display: flex;
+}
+
+.calc-keypad-row-3 {
+    display: flex;
+}
+
+.calc-keypad-row-4 {
+    display: flex;
+}
+
+.calc-keypad-row-5 {
+    display: flex;
+}
+
+.calc-btn {
+    width: 75px;
+    height: 75px;
+    background-color: #303030;
+    border: 1px solid #505050;
+    box-sizing: border-box;
+    color: #0060A8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.calc-btn:hover {
+    background-color: #484848;
+    color: #fde311;
+}
+
+.calc-btn:active {
+    background-color: #303030;
+    color: #0060A8;
+}
+
+.calc-keypad .clear {
+    width: 113px;
+}
+
+.calc-keypad .backspace {
+    width: 112px;
+}
+
+.calc-keypad .number-0 {
+    width: 150px;
+}
